@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h2>Login Page</h2>
+
+  <label for="username">Username:</label>
+  <input type="text" id="username" placeholder="Enter username">
+
+  <label for="password">Password:</label>
+  <input type="password" id="password" placeholder="Enter password">
+
+  <button id="loginBtn">Login</button>
+  <p id="errorMsg" class="error"></p>
+</div>
+
+<!-- JS files (order matters) -->
+<script src="users.js"></script>
+<script src="inputer.js"></script>
+<script src="validation.js"></script>
+<script src="outputer.js"></script>
+
+<script>
+  var loginBtn = document.getElementById("loginBtn");
+  var errorMsg = document.getElementById("errorMsg");
+
+  loginBtn.onclick = function () {
+    var loginData = getLoginInput();
+    var user = validateUser(loginData);
+
+    if (user === null) {
+      errorMsg.textContent = "Invalid username or password";
+    } else {
+      errorMsg.textContent = "";
+      saveAndGoToUserPage(user);
+    }
+  };
+</script>
+
+</body>
+</html>

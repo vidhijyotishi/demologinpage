@@ -1,0 +1,22 @@
+var users = [
+  { username: "ram",   userage: 25, usercity: "Hyderabad", userpassword: "12345",
+    fatherName: "Mohan Lal", motherName: "Sita Devi", profession: "Software Engineer" },
+  { username: "shyam", userage: 22, usercity: "Goa",       userpassword: "123456",
+    fatherName: "Harish Kumar", motherName: "Rukmini Bai", profession: "Graphic Designer" },
+  { username: "madhav", userage: 26, usercity: "Pune",     userpassword: "1234567",
+    fatherName: "Krishna Rao", motherName: "Radha Devi",   profession: "Mechanical Engineer" },
+  { username: "arjun", userage: 24, usercity: "Bengaluru", userpassword: "234567",
+    fatherName: "Suresh Reddy", motherName: "Lakshmi Reddy", profession: "UI/UX Designer" },
+  { username: "vikram", userage: 27, usercity: "Mumbai",   userpassword: "345678",
+    fatherName: "Anand Patel", motherName: "Kiran Patel",  profession: "Doctor" },
+  { username: "karan", userage: 23, usercity: "Delhi",     userpassword: "456789",
+    fatherName: "Ramesh Singh", motherName: "Meera Singh", profession: "Civil Engineer" },
+  { username: "suresh", userage: 28, usercity: "Chennai",  userpassword: "567890",
+    fatherName: "Bala Krishnan", motherName: "Devi Bala",  profession: "Teacher" },
+  { username: "rajesh", userage: 29, usercity: "Kolkata",  userpassword: "678901",
+    fatherName: "Pradeep Das", motherName: "Manju Das",    profession: "Marketing Manager" },
+  { username: "manoj", userage: 25, usercity: "Jaipur",    userpassword: "789012",
+    fatherName: "Vijay Sharma", motherName: "Rita Sharma", profession: "Accountant" },
+  { username: "ajay",  userage: 21, usercity: "Indore",    userpassword: "890123",
+    fatherName: "Mahesh Dubey", motherName: "Lata Dubey",  profession: "Student" }
+];
